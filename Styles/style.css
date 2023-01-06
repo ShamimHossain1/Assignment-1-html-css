@@ -44,7 +44,7 @@ header .header-btn{
     background-color:blue;
     color: white;
     border:none;
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 20px 25px;
     font-size: 20px;
     font-weight: 600;
@@ -167,6 +167,10 @@ color: #737272;
     margin-bottom: 130px;
     border-radius: 8px;
 }
+.call div{
+    padding-top: 19px;
+    padding-left: 64px ;
+}
 
 .call h3{
     font-weight: 700;
@@ -181,8 +185,11 @@ padding-right: 50%;
 height: 64px;
 color:#0000ff;
     background-color: aliceblue;
-    border:solid 2px blue;
+    border:solid;
     border-radius: 6px;
+   
+    font-size: 20px;
+    font-weight: 600;
 }
 .call button:hover{
     background-color:blue;
@@ -193,4 +200,76 @@ color:#0000ff;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+    border:solid 2px rgb(255, 255, 255);
+}
+
+/* footer */
+.footer {
+    background: #151414;
+    margin: -8px;
+}
+
+.future h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.future p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 229px 130px 230px;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon img {
+    margin-right: 17px;
+}
+
+.subscribe p {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+.email {
+    background-color: #181616;
+    color: #d9d9d9b4;
+    border: 2px solid blue;
+    transition-duration: 0.4s;
+    width: 325px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+.sub-email {}
+.sub-btn{
+    background-color:blue;
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 6px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-top: 12px;
+}
+.sub-btn:hover{
+    color:blue;
+    background-color: aliceblue;
+    border:solid 2px blue;
 }
