@@ -1,38 +1,39 @@
-
-
-
-*{
+* {
     font-family: 'Work Sans';
 }
 
 
 /* --------Header Section ------------ */
 
-.header-cont{
+.header-cont {
     text-align: right;
     background: url("../images/banner1.png");
     background-repeat: no-repeat;
-    background-size:cover;
-  
-    width: 1895px;
-    height: 900px;
-   
+    background-size: cover;
+    padding-bottom: 350px;
+    margin: -60px -8px 0px -8px;
     
+    
+
+
 }
-header .text-cont{
+
+header .text-cont {
     padding-top: 216px;
     margin-right: 230px;
-    
+
 }
-header .header-h{
+
+header .header-h {
     font-size: 70px;
     font-weight: 1900;
     line-height: 76px;
     text-align: right;
     margin-bottom: 24px;
-    
+
 }
-header .header-p{
+
+header .header-p {
     font-size: 20px;
     font-weight: 600;
     line-height: 26px;
@@ -40,167 +41,248 @@ header .header-p{
     margin-bottom: 32px;
     color: rgba(68, 68, 68, 0.806)
 }
-header .header-btn{
-    background-color:blue;
+
+header .header-btn {
+    background-color: blue;
     color: white;
-    border:none;
+    border: none;
     border-radius: 6px;
     padding: 20px 25px;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
-    
+
 }
-.header-btn:hover{
-    color:blue;
+
+.header-btn:hover {
+    color: blue;
     background-color: aliceblue;
-    border:solid 2px blue;
+    border: solid 2px blue;
 }
 
 /*---- My failures of previous year section---- */
 
 
-.fail-sec{
-    
+.fail-sec {
+
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin: 130px 100px 30px 200px;
-    
-} 
+    margin: 70px 50px 30px 300px;
+
+}
 
 
-.fail-cont{
-    
-   
+.fail-cont {
+
+
     margin-top: 230px;
     margin-left: 89px;
 }
-.fail-img{
+
+.fail-img {
     width: 823;
     height: 769;
 }
-.fail-h{
-   
+
+.fail-h {
+
     font-weight: 700;
-   font-size: 45px;
-   margin-right: 50%;
+    font-size: 45px;
+    margin-right: 50%;
 }
-.fail-p{
- 
+
+.fail-p {
+
     font-weight: 400;
-font-size: 18px;
-line-height: 26px;
-color: #444343;
-margin-right: 50% ;
-margin-top: -20px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #444343;
+    margin-right: 50%;
+    margin-top: -20px;
 }
-.fail-li{
+
+.fail-li {
+    padding-left: 0px;
     list-style: none;
-   
-}
-.fail-li > li{
-    font-weight: 400;
-font-size: 18px;
-line-height: 6px;
-color: #444343;
-justify-content: center;
 
 }
-.fail-li img{
+
+.fail-li>li {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 6px;
+    color: #444343;
+    justify-content: center;
+
+}
+
+.fail-li img {
     width: 25px;
     height: 20px;
-margin-top: 10px;
-margin-right: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* things i need to do */
+.to-do {
+    margin: 84px 230px 10px 230px;
+
+
+}
+
+.do-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.service-item {
+
+    display: flex;
+    gap: 54px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.item {
+
+
+    background: rgba(255, 255, 255, 0.532);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.175);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+.iicon {
+    height: 55;
+    width: 60;
+}
+
+.item-title {
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+
+}
+
+.item-description {
+    width: 201px;
+    height: 196px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    color: #757575;
 }
 
 /* ----My Plan---- */
 
-.my-plan{
+.my-plan {
     margin-top: 100px;
     text-align: center;
 }
-.plan-h{
+
+.plan-h {
     font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-color: #151414;
-margin-top: 100px;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-top: 100px;
 }
-.plan-li{
+
+.plan-li {
     margin-top: 100px;
     display: flex;
     gap: 20px;
     list-style: none;
     justify-content: center;
 }
-.plan-li li{
+
+.plan-li li {
     width: 318px;
-height: 297px;
+    height: 297px;
 }
-.plan-li h3{
-font-weight: 700;
-font-size: 30px;
-line-height: 35px;
-color: #151414;
+
+.plan-li h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
 }
-.plan-li p{
-font-weight: 500;
-font-size: 25px;
-line-height: 29px;
-color: #737272;
+
+.plan-li p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
 
 }
 
 /* Call  Section  */
 
-.call{
+.call {
     background-image: linear-gradient(to right, #0000ff, #f15d2200),
-    url('../images/watch.png');
-    
+        url('../images/watch.png');
+
     background-size: cover;
-    
-    margin: 70px 230px 130px 400px;
-    width: 1140px;
-    height: 300px;
-    
-    margin-bottom: 130px;
+
+    margin: 70px 100px 130px 100px;
+   
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+
     border-radius: 8px;
 }
-.call div{
+
+.call div {
     padding-top: 19px;
-    padding-left: 64px ;
+    padding-left: 64px;
 }
 
-.call h3{
+.call h3 {
+
     font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-color: #FFFFFF;
-padding-right: 50%;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-right: 50%;
 
 }
-.call button{
+
+.call button {
     width: 160px;
-height: 64px;
-color:#0000ff;
+    height: 64px;
+    color: #0000ff;
     background-color: aliceblue;
-    border:solid;
+    border: solid;
     border-radius: 6px;
-   
+
     font-size: 20px;
     font-weight: 600;
 }
-.call button:hover{
-    background-color:blue;
+
+.call button:hover {
+    background-color: blue;
     color: white;
-    border:none;
+    border: none;
     border-radius: 6px;
     padding: 20px 25px;
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
-    border:solid 2px rgb(255, 255, 255);
+    border: solid 2px rgb(255, 255, 255);
 }
 
 /* footer */
@@ -256,11 +338,10 @@ color:#0000ff;
     border-radius: 7px;
 }
 
-.sub-email {}
-.sub-btn{
-    background-color:blue;
+.sub-btn {
+    background-color: blue;
     color: rgb(255, 255, 255);
-    border:none;
+    border: none;
     border-radius: 6px;
     padding: 20px 25px;
     font-size: 20px;
@@ -268,8 +349,9 @@ color:#0000ff;
     line-height: 23px;
     margin-top: 12px;
 }
-.sub-btn:hover{
-    color:blue;
+
+.sub-btn:hover {
+    color: blue;
     background-color: aliceblue;
-    border:solid 2px blue;
+    border: solid 2px blue;
 }
