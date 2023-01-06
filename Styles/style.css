@@ -1,0 +1,196 @@
+
+
+
+*{
+    font-family: 'Work Sans';
+}
+
+
+/* --------Header Section ------------ */
+
+.header-cont{
+    text-align: right;
+    background: url("../images/banner1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    width: 1895px;
+    height: 900px;
+   
+    
+}
+header .text-cont{
+    padding-top: 216px;
+    margin-right: 230px;
+    
+}
+header .header-h{
+    font-size: 70px;
+    font-weight: 1900;
+    line-height: 76px;
+    text-align: right;
+    margin-bottom: 24px;
+    
+}
+header .header-p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: right;
+    margin-bottom: 32px;
+    color: rgba(68, 68, 68, 0.806)
+}
+header .header-btn{
+    background-color:blue;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    
+}
+.header-btn:hover{
+    color:blue;
+    background-color: aliceblue;
+    border:solid 2px blue;
+}
+
+/*---- My failures of previous year section---- */
+
+
+.fail-sec{
+    
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 130px 100px 30px 200px;
+    
+} 
+
+
+.fail-cont{
+    
+   
+    margin-top: 230px;
+    margin-left: 89px;
+}
+.fail-img{
+    width: 823;
+    height: 769;
+}
+.fail-h{
+   
+    font-weight: 700;
+   font-size: 45px;
+   margin-right: 50%;
+}
+.fail-p{
+ 
+    font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #444343;
+margin-right: 50% ;
+margin-top: -20px;
+}
+.fail-li{
+    list-style: none;
+   
+}
+.fail-li > li{
+    font-weight: 400;
+font-size: 18px;
+line-height: 6px;
+color: #444343;
+justify-content: center;
+
+}
+.fail-li img{
+    width: 25px;
+    height: 20px;
+margin-top: 10px;
+margin-right: 10px;
+}
+
+/* ----My Plan---- */
+
+.my-plan{
+    margin-top: 100px;
+    text-align: center;
+}
+.plan-h{
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+margin-top: 100px;
+}
+.plan-li{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+}
+.plan-li li{
+    width: 318px;
+height: 297px;
+}
+.plan-li h3{
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+color: #151414;
+}
+.plan-li p{
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+color: #737272;
+
+}
+
+/* Call  Section  */
+
+.call{
+    background-image: linear-gradient(to right, #0000ff, #f15d2200),
+    url('../images/watch.png');
+    
+    background-size: cover;
+    
+    margin: 70px 230px 130px 400px;
+    width: 1140px;
+    height: 300px;
+    
+    margin-bottom: 130px;
+    border-radius: 8px;
+}
+
+.call h3{
+    font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #FFFFFF;
+padding-right: 50%;
+
+}
+.call button{
+    width: 160px;
+height: 64px;
+color:#0000ff;
+    background-color: aliceblue;
+    border:solid 2px blue;
+    border-radius: 6px;
+}
+.call button:hover{
+    background-color:blue;
+    color: white;
+    border:none;
+    border-radius: 6px;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
